@@ -4,7 +4,7 @@ import { IoMdMenu, IoMdClose } from "react-icons/io";
 export default function Header() {
   const [toggle, setToggle] = useState(false);
   return (
-    <div className="bg-[#2699fb] p-4">
+    <div className="bg-[#fff] p-4">
       <div className="max-w[1240px] py-[12px] items-center flex justify-between mx-auto">
         <div className="text-3xl font-bold">Tech</div>
         {toggle ? (
@@ -19,7 +19,7 @@ export default function Header() {
           />
         )}
 
-        <ul className="hidden md:flex text-white gap-10">
+        <ul className="hidden md:flex text-black gap-10">
           <li>Home</li>
           <li>Company</li>
           <li>Resources</li>
